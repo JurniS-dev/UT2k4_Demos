@@ -21,6 +21,8 @@ Example: `Abnormal-vs-sL-vEr-DM-Rankin-DML-11-5-2026-(22-45).demo4` — a duel b
 
 Team demos (TDM) list every player, with `-vs-` separating the two teams.
 
+**Note:** GitHub replaces some special characters in filenames when you download (parentheses and brackets become dots, e.g. `...(22-45).demo4` downloads as `...-.22-45.demo4`). The demo itself is untouched — just use the downloaded file's actual name in the `demoplay` command.
+
 ## How to play a demo
 
 1. Download the `.demo4` file.
@@ -28,10 +30,8 @@ Team demos (TDM) list every player, with `-vs-` separating the two teams.
 3. Open the console in-game and run:
 
    ```
-   demoplay <filename-without-extension>
+   demoplay <downloaded-filename-without-extension>
    ```
-
-   Example: `demoplay Abnormal-vs-sL-vEr-DM-Rankin-DML-11-5-2026-(22-45)`
 
 ## Playback requirements — read this first
 
